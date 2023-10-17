@@ -117,6 +117,7 @@ footer{
 button{
     border-radius: 30px;
     border: 0px;
+    transition: transform 1s ease-in-out;
 }
 
 h1{
@@ -141,5 +142,5 @@ h1{
 }
 
 button:active{
-    size: 1000px;
+    transform: scale(1.3);
 }
